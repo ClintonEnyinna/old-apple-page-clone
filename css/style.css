@@ -1,0 +1,274 @@
+html,
+body,
+div,
+span,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+abbr,
+address,
+img,
+ins,
+small,
+strike,
+strong,
+u,
+i,
+center,
+ol,
+ul,
+li,
+article,
+aside,
+footer,
+header,
+nav,
+section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+body {
+  line-height: 1;
+  display: flex;
+  flex-direction: column;
+  width: 75%;
+  margin: 0 auto;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 72%;
+  width: 100%;
+  background-image: url('../img/main-background.jpg');
+  background-position: 100% 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 25%;
+  width: 100%;
+}
+
+nav div.nav-bar {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  height: 35px;
+  border: 1px solid rgb(95, 95, 95);
+  background: linear-gradient(rgb(124, 124, 124), rgb(124, 124, 124) 50%, rgb(95, 95, 95) 50%, rgb(121, 121, 121));
+  border-radius: 4px;
+}
+
+footer ul {
+  padding-top: 15px;
+  color: #6e6e6e;
+}
+
+div.nav-bar ul {
+  display: flex;
+  width: 88%;
+  height: 100%;
+}
+
+footer div {
+  display: flex;
+}
+
+div.nav-bar div {
+  position: relative;
+  width: 12%;
+  text-align: center;
+}
+
+.apple-icon {
+  line-height: 35px;
+  vertical-align: middle;
+}
+
+div.nav-bar div img {
+  position: absolute;
+  top: 5px;
+  left: 18px;
+  width: 20px;
+  height: 20px;
+}
+
+div.nav-bar div input {
+  box-sizing: border-box;
+  width: 80%;
+  height: 21px;
+  border-radius: 10px;
+  outline: none;
+  padding-left: 20px;
+  border: 1px solid rgb(95, 95, 95);
+  background: linear-gradient(rgb(124, 124, 124), rgb(124, 124, 124) 50%, rgb(95, 95, 95) 50%, rgb(121, 121, 121));
+}
+
+footer li {
+  padding-left: 6px;
+  margin-left: 6px;
+  border-left: 1px solid #ccc;
+  height: 11px;
+}
+
+div.nav-bar ul li {
+  text-align: center;
+  width: 12.5%;
+  height: 100%;
+  border-right: 1px solid rgb(95, 95, 95);
+}
+
+div.nav-bar ul li:hover {
+  background-color: rgb(71, 71, 71);
+}
+
+footer a {
+  text-decoration: none;
+  color: #08c;
+}
+
+aside a {
+  flex-basis: 25%;
+  margin: 1px;
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+aside a:nth-child(1) {
+  background-image: url('../img/img-one.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+aside a:nth-child(2) {
+  background-image: url('../img/img-two.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+aside a:nth-child(3) {
+  background-image: url('../img/img-three.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+aside a:nth-child(4) {
+  background-image: url('../img/img-four.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+div.nav-bar ul li a {
+  text-decoration: none;
+  padding: 10% 15%;
+  color: white;
+  line-height: 35px;
+  vertical-align: middle;
+  font-size: 15px;
+}
+
+header div.content {
+  box-sizing: border-box;
+  height: 50%;
+  width: 100%;
+  padding: 50px 0;
+  text-align: center;
+}
+
+.watch-stories {
+  padding-top: 30px;
+}
+
+.watch-stories:hover {
+  border-bottom: 1px solid white;
+}
+
+aside {
+  display: flex;
+  flex-basis: 20%;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  flex-basis: 8%;
+  width: 68%;
+  margin: 0 auto;
+  padding: 10px 0 0;
+  font-size: 10.4px;
+}
+
+footer p {
+  padding-top: 15px;
+  color: #6e6e6e;
+}
+
+footer div:nth-child(1) {
+  justify-content: space-between;
+}
+
+footer div:nth-child(1) ul {
+  display: flex;
+}
+
+footer li.first {
+  border: none;
+}
+
+footer div:nth-child(2) ul {
+  display: flex;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    width: 100%;
+  }
+
+  .apple-icon {
+    width: 32px;
+    height: 29px;
+  }
+
+  div.nav-bar ul li a {
+    padding: 0;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  header img {
+    width: 100%;
+  }
+
+  .watch-stories {
+    width: 500px;
+  }
+}
