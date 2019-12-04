@@ -101,6 +101,11 @@ div.nav-bar div {
   text-align: center;
 }
 
+.apple-icon {
+  line-height: 35px;
+  vertical-align: middle;
+}
+
 div.nav-bar div img {
   position: absolute;
   top: 5px;
@@ -132,6 +137,10 @@ div.nav-bar ul li {
   width: 12.5%;
   height: 100%;
   border-right: 1px solid rgb(95, 95, 95);
+}
+
+div.nav-bar ul li:hover {
+  background-color: rgb(71, 71, 71);
 }
 
 footer a {
@@ -178,6 +187,7 @@ aside a:nth-child(4) {
 
 div.nav-bar ul li a {
   text-decoration: none;
+  padding: 10% 15%;
   color: white;
   line-height: 35px;
   vertical-align: middle;
@@ -239,6 +249,15 @@ footer div:nth-child(2) ul {
 @media screen and (max-width: 1100px) {
   body {
     width: 100%;
+  }
+    
+  .apple-icon {
+    width: 32px;
+    height: 29px;
+  }
+
+  div.nav-bar ul li a {
+    padding: 0;
   }
 
   footer {
