@@ -37,11 +37,6 @@ This section was built with:
 ### Prerequisites
 * git - [download git here](https://git-scm.com/downloads)
 
-* npm
-```sh
-npm install npm@latest -g
-```
-
 ### Installation
 
 1. Clone the repo
@@ -52,7 +47,7 @@ git clone https://github.com/ClintonEnyinna/old-apple-page-clone.git
 ```sh
 cd old-apple-page-clone
 ```
-3. Open with visual studio code
+3. Open with [visual studio code](https://code.visualstudio.com/Download)
 ```sh
 code . 
 ```
