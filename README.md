@@ -35,6 +35,7 @@ This section was built with:
 ## Getting Started
 
 ### Prerequisites
+* git - [download git here](https://git-scm.com/downloads)
 
 * npm
 ```sh
