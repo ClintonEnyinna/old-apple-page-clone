@@ -219,8 +219,7 @@ footer {
   font-size: 10.4px;
 }
 
-footer p
-{
+footer p {
   padding-top: 15px;
   color: #6e6e6e;
 }
@@ -250,12 +249,11 @@ footer div:nth-child(2) ul {
     width: 100%;
   }
 
-  header img{
+  header img {
     width: 100%;
   }
 
-  .watch-stories{
+  .watch-stories {
     width: 500px;
   }
 }
-
