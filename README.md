@@ -16,7 +16,7 @@
 
 <br/>
 <p align="center">
-  <a href="https://github.io/ClintonEnyinna/old-apple-page-clone">
+  <a href="https://clintonenyinna.github.io/old-apple-page-clone/">
     <img src="./img/main-page.jpg" alt="Logo" width="100%" height="100%">
   </a>
 </p>
